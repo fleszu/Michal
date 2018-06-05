@@ -1,8 +1,8 @@
-
 /*-------------------- HEADER --------------------*/
+
 header {
-    background-image: url(../images/burg.jpg);
-    background-repeat: no-repeat;
+	background-image: url(../images/burg.jpg);
+	background-repeat: no-repeat;
 }
 
 
@@ -11,22 +11,27 @@ header {
 
 
 /*--------------------- NAV ------------------------*/
+
 nav {
-    ul {
-        margin-left: 2%;
-        border-left: 1px solid rgba(0,0,0,.3);
-    }
-    ul li {
-        width: auto;
-    }//end li
-    ul li:last-child {
-        border-right: 1px solid rgba(0,0,0,.3);
-    }
-    ul li a {
-        padding: .5rem 1rem;
-    }//end a
-}//end nav
-
-
-
+	ul {
+		margin-left: 2%;
+		border-left: 1px solid rgba(0, 0, 0, .3);
+	}
+	ul li {
+		width: auto;
+	} //end li
+	ul li:last-child {
+		border-right: 1px solid rgba(0, 0, 0, .3);
+	}
+	ul li a {
+		padding: .5rem 1rem;
+	} //end a
+} //end nav
 /*-------------------- MAIN --------------------*/
+
+main {
+	figure.photoB {
+		width: 50%;
+
+	}
+}
