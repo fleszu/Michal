@@ -22,7 +22,7 @@ header {
 		font-weight: $normalWeight;
 		margin-left: 150px;
 		color: #fff;
-        text-shadow: 5px 5px 10px rgb(8, 8, 8);
+		text-shadow: 5px 5px 10px rgb(8, 8, 8);
 	} //end both
 	figure.logo {
 		position: absolute;
@@ -41,8 +41,9 @@ header {
 /*------------------ NAV ----------------*/
 
 nav {
-    ul {
-        display: flex}
+	ul {
+		display: flex;
+	}
 	background-color: $secondaryColor;
 	border-bottom: 1px solid rgba(0, 0, 0, .3);
 	ul li {
@@ -86,18 +87,45 @@ main {
 		line-height: 130%;
 		margin: 0 $gutter;
 	} //end p
-    figure.hero {
-        width: 96%;
-        margin-left: $gutter;
-    }
-    figure.hero img {
-        width: 100%;
-    }
-    picture.hero {
-        margin-left: $gutter;
-    }
-    picture.hero img {
-        width: 96%;
-    }
+	figure.hero {
+		width: 96%;
+		margin-left: $gutter;
+	}
+	figure.hero img {
+		width: 100%;
+	}
+	picture.hero {
+		margin-left: $gutter;
+	}
+	picture.hero img {
+		width: 96%;
+	}
 } //end main
+/*-------------- SLICK SLIDER -------------*/
+
+div.myslider div {
+	width: 100%;
+}
+
+div.myslider div img {
+	width: 100%;
+}
+
+
 /*---------------- FOOTER -------------*/
+
+footer {
+	display: block;
+	width: 100%;
+	background-color: $secondaryColor;
+	p {
+		text-align: center;
+		color: $primaryColor;
+		padding: .75rem 0;
+		font-size: .9rem;
+	} // end p
+	p a {
+		color: $primaryColor;
+	}
+} // end footer
+/*----------- Clearfix: Force an Element not to collapse ------------*/

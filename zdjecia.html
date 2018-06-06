@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="pl">
+
+<head>
+	<meta charset="utf-8">
+	<title>Parodysta z Radomia</title>
+	<meta name="viewport" content="width=devicwe-width, initial-scale=1, maximum-scale=1">
+	<meta name="DESCRIPTION" content="Autoryzowana strona parodysty ulicznego Michała, zwanego 'Makłowiczem z Radomia'." />
+	<link href="css/styles.css" rel="stylesheet">
+	<link rel="stylesheet" href="slick/slick.css">
+	<link rel="stylesheet" href="slick/slick-theme.css">
+	<link href="https://fonts.googleapis.com/css?family=Raleway:300,500" rel="stylesheet">
+
+</head>
+
+<body>
+	<!-- HEADER STARTS HERE -->
+	<header>
+		<figure class="logo">
+			<img src="images/bird.png" srcset="images/bird1x.png 1x, images/bird2x.png 2x, images/bird3x.png 3x" alt="">
+		</figure>
+		<h1>Michał</h1>
+		<h2>parodysta z Radomia</h2>
+	</header>
+	<!-- NAV STATS HERE -->
+	<nav>
+		<ul class="clearfix">
+			<li class="active"><a href="index.html">Strona Główna</a></li>
+			<li><a href="#">O mnie</a></li>
+			<li><a href="#">Filmy i seriale</a></li>
+			<li><a href="#">Zdjęcia</a></li>
+			<li><a href="#">Wywiad - rzeka</a></li>
+		</ul>
+	</nav>
+	<!-- MAIN STARS HERE -->
+	<main>
+		<div class="myslider">
+			<picture>
+				<source srcset="sliders/z_560.jpg" media="(min-width: 29.25rem)">
+				<img srcset="sliders/z_560.jpg" alt="">
+			</picture>
+			<picture>
+				<source srcset="sliders/wizyta_Moment.jpg" media="(min-width: 29.25rem)">
+				<img srcset="sliders/wizyta_Moment.jpg" alt="">
+			</picture>
+			<picture>
+				<source srcset="sliders/z_560.jpg" media="(min-width: 29.25rem)">
+				<img srcset="sliders/z_560.jpg" alt="">
+			</picture>
+			<picture>
+				<source srcset="sliders/z_560.jpg" media="(min-width: 29.25rem)">
+				<img srcset="sliders/z_560.jpg" alt="">
+			</picture>
+		</div>
+		<!--	end slider	-->
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti praesentium fugit error reiciendis saepe facilis hic odit molestiae porro vero, sunt laborum in culpa ad, quaerat blanditiis odio, ipsum.</p>
+	</main>
+	<!-- FOOTER STARS HERE -->
+	<footer>
+		<p>Wszelkie prawa zastrzeżone &copy; Michał z Radomia</p>
+	</footer>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="slick/slick.min.js"></script>
+	<script>
+		$(document).ready(function() {
+			$('.myslider').slick({
+				autoplay: true,
+				dots: true,
+				arrows: false,
+				cssEase: 'ease-out',
+				speed: 2000,
+				autoplaySpeed: 1000
+			});
+		});
+
+	</script>
+
+
+</body>
+
+</html>
